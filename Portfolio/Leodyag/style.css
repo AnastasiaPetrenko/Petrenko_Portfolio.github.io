@@ -1,0 +1,91 @@
+*{
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+
+.fa-shopping-cart{
+    color: grey;
+}
+.nav-link{
+    color: grey;
+}
+.carousel-caption {
+    width:500px;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+    text-align:center;
+   margin: 10% auto;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    padding: 10px 40px;
+    background: white;
+    color: grey;
+    display: inline-block;
+    font-size: 14px;
+    border: solid 1px white;
+}
+.carousel-caption a:hover{
+    background: none;
+    color: white;
+}
+.card{
+    max-height: 380px;
+}
+.footer__img{
+    border-top: solid 1px lightgrey;
+    padding-top: 50px;
+}
+footer img{
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+footer img:hover{
+    zoom: 1.1;
+}
+.blog-text p{
+    color: gray;
+    line-height: 2;
+}
+.blog-text h3{
+    border-bottom: solid 2px lightgray;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.blog-text h5:hover{
+    color: black;
+}
+.about__us h2{
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom:solid 2px black;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+li img{
+    border-radius: 70%;
+}
+li img:hover{
+   opacity: 0.5;
+}
+.collections li{
+    list-style: none;
+    margin-top: 30px;
+}
+.collections{
+    display: flex;
+}
+.collections a{
+    color: black;
+}
+.collections a:hover{
+    font-weight: bold;
+}
+.products a{
+    color: black;
+}
+.products a:hover{
+    font-weight: bold;
+}

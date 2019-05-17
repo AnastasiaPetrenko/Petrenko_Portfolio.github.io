@@ -1,0 +1,618 @@
+.container-fluid{
+    max-width: 1440px;
+    position: relative;
+    font-family: "Myriad Pro", sans-serif;
+}
+.container{
+    max-width: 1060px;
+}
+.header__logo{
+    top: 40px;
+    display: flex;
+    position: absolute;
+}
+.header__logo p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    line-height: 1.286;
+    letter-spacing: 2px;
+    padding: 3px 23px;
+    font-weight: bold;
+}
+.header__call{
+    position: absolute;
+    top: 22px;
+    right: 180px;
+}
+.header__call span{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    font-weight: bold;
+}
+.header__call p {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin: -14px 0 0 45px;
+}
+.main{
+    position: absolute;
+    top: 199px;
+    right: 182px;
+}
+.main p{
+    font-size: 71px;
+    letter-spacing: 2px;
+    color: rgb(35, 137, 255);
+    background: linear-gradient(50deg, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 0.929;
+    position: absolute;
+    font-weight: bold;
+}
+.main span{
+    font-size: 157px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.7;
+    text-transform: uppercase;
+}
+.main form, .girl__form form, .footer__form form{
+    margin-top: -43px;
+    padding-left: 62px;
+}
+.main input, .girl__form input, .footer__form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px #5327ff;
+    width: 300px;
+    color: white;
+    margin-top: 30px;
+}
+input::-webkit-input-placeholder { color: white; }
+input::-moz-placeholder { color: white; }
+.main button, .girl__form button, .footer__form button{
+    background-image: -moz-linear-gradient( -83deg, rgb(83,39,255) 0%, rgb(17,174,255) 100%);
+    background-image: -webkit-linear-gradient( -83deg, rgb(83,39,255) 0%, rgb(17,174,255) 100%);
+    background-image: -ms-linear-gradient( -83deg, rgb(83,39,255) 0%, rgb(17,174,255) 100%);
+    width: 401px;
+    height: 90px;
+    display: inline-block;
+    border-radius: 66px;
+    margin: 50px 0 0 -51px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.main button:hover, .girl__form button:hover{
+    border:solid 2px white;
+    font-size: 33px;
+}
+.footer__form button:hover{
+    border:solid 2px white;
+}
+#man{
+    margin-top: -23px
+}
+.man-jump__text{
+    position: absolute;
+    top: 91px;
+    left: 269px;
+}
+.man-jump__text h2{
+    font-size: 59px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.929;
+    letter-spacing: 4px
+}
+.man-jump__text h3{
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(35, 137, 255);
+    background: linear-gradient(10deg, #0D61BC 16%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -20px;
+}
+.man-jump__text p{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    padding-left: 20px;
+}
+.man-jump__text span{
+  font-weight: bold;
+}
+.girl{
+    position: absolute;
+    top: -100px;
+    right: 269px;
+}
+.girl__form{
+    position: absolute;
+    bottom: 130px;
+    right: 275px;
+}
+.reviews h2{
+    position: absolute;
+    top: 110px;
+    left: 270px;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    line-height: 0.929;
+}
+.reviews span{
+    font-size: 86px;
+    color: white;
+    font-weight: bold;
+}
+.reviews__girl{
+    position: absolute;
+    bottom: -3px;
+    right: 150px;
+}
+.reviews__text{
+    position: absolute;
+    bottom: 64px;
+    margin: 0 37% 0 32%;
+    width: 247px;
+}
+.reviews__text h3{
+    font-size: 47px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.239;
+    margin-bottom: -10px;
+}
+.reviews__text span{
+    font-size: 15px;
+    color: #444444;
+}
+.reviews__text p{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.625;
+    padding-top: 20px;
+}
+.footer__form a{
+    padding-top: 20px;
+}
+.footer__botton{
+    position: absolute;
+    top: 88px;
+    right: 290px;
+}
+.footer__botton button{
+    display: inline-block;
+    border-radius: 66px;
+    background-color: #c10e2d;
+    width: 401px;
+    height: 84px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 3px 6px 10px rgba(255, 255, 255, 0.6);
+}
+.footer__botton button:hover{
+    border:solid 2px white;
+    font-size: 33px;
+}
+.footer__botton p{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 3
+}
+.footer__main{
+    position: absolute;
+    bottom: 250px;
+    right: 181px;
+}
+.footer__main p{
+   font-size: 100px;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: rgb(35, 137, 255);
+   background: linear-gradient(10deg, #0D61BC 16%, #8AA9D6);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-top: -51px;
+}
+.footer__main h2 {
+    font-size: 63px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer__logo{
+    position: absolute;
+    bottom: 283px;
+    left: 362px;
+    max-width: 170px;
+}
+.footer__logo p{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    text-transform: uppercase;
+     margin-top: 20px;
+    letter-spacing: 2px;
+}
+.footer__logo span{
+    font-size: 16px;
+    color: white;
+}
+.footer__social{
+    position: absolute;
+    bottom: 70px;
+    width: 150px;
+    margin: 0 45%;
+}
+.footer__social img{
+    padding: 10px;
+}
+.footer__social img:hover{
+    border-bottom: solid 1px #767676;
+}
+@media (max-width: 1380px) {
+    .main{
+        position: absolute;
+        top: 199px;
+        right: 132px;
+    }
+    .header__call{
+        right: 80px;
+    }
+    .main p{
+        font-size: 31px;
+    }
+    .main span{
+        font-size: 87px;
+    }
+    .main form, .girl__form form, .footer__form form{
+        margin-top: -43px;
+        padding-left: 0;
+    }
+    .main input, .girl__form input, .footer__form input{
+        width: 250px;
+    }
+    .main button, .girl__form button, .footer__form button{
+        width: 201px;
+        height: 50px;
+        font-size: 16px;
+        margin: 50px 0 0 0;
+    }
+    .main button:hover, .girl__form button:hover{
+        border:solid 2px white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .man-jump__text{
+        position: absolute;
+        top: 91px;
+        left: 169px;
+    }
+    .man-jump__text h2{
+        font-size: 39px;
+    }
+    .man-jump__text h3{
+        font-size: 80px;
+    }
+    .reviews__girl{
+        right: 16px;
+    }
+    .reviews__girl img{
+        width: 90%;
+    }
+    .footer__botton button{
+        width: 300px;
+        height: 54px;
+        font-size: 16px;
+    }
+    .footer__botton button:hover{
+        border:solid 2px white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .reviews h2{
+        top: 70px;
+        left: 120px;
+    }
+}
+@media (max-width: 1130px) {
+    .reviews__girl img{
+        width: 70%;
+    }
+    .reviews__girl{
+        right: -150px;
+    }
+    .reviews__text{
+        position: absolute;
+        bottom: 15px;
+        margin: 0 37% 0 32%;
+        width: 247px;
+    }
+   .footer__botton{
+       top: 48px;
+       right: 90px;
+   }
+    .footer__botton button{
+        width: 300px;
+        height: 54px;
+        font-size: 16px;
+    }
+    .footer__botton button:hover{
+        border:solid 2px white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .footer__main{
+        position: absolute;
+        bottom: 100px;
+        right: 90px;
+    }
+    .footer__main p{
+        font-size: 60px;
+        margin-top: 1px;
+    }
+    .footer__main h2 {
+        font-size: 43px;
+    }
+    .footer__logo{
+       bottom: 100px;
+       left: 62px;
+       max-width: 170px;
+     }
+    .footer__social{
+        bottom: 30px;
+    }
+}
+@media (max-width: 1130px){
+    .reviews__girl{
+        right: -170px;
+    }
+    .reviews__girl img{
+        width: 60%;
+    }
+    .reviews h2{
+        font-size: 30px;
+    }
+    .reviews h2 span{
+        font-size: 60px;
+    }
+    .girl img{
+        width: 50%;
+    }
+    .girl{
+        position: absolute;
+        top: -50px;
+        right: 100px;
+    }
+    .girl__form{
+        position: absolute;
+        bottom: 100px;
+        right: 105px;
+    }
+}
+@media (max-width: 940px){
+    .main{
+        right: 50px;
+    }
+    .main form, .girl__form form, .footer__form form{
+        margin-top: -70px;
+        padding-left: 0;
+    }
+    .main input, .girl__form input, .footer__form input{
+        width: 220px;
+    }
+    .main button, .girl__form button, .footer__form button{
+        width: 220px;
+        height: 40px;
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+    .girl{
+        position: absolute;
+        top: -50px;
+        right: 10px;
+    }
+    .reviews__girl{
+        right: -20%;
+    }
+    .reviews__girl img{
+        width: 50%;
+    }
+    .reviews h2{
+        font-size: 20px;
+    }
+    .reviews h2 span{
+        font-size: 40px;
+    }
+    .reviews p{
+        font-size: 13px;
+        color: white;
+        width: 170px;
+    }
+    .footer__form a{
+        padding-top: 20px;
+    }
+    .footer__botton{
+        position: absolute;
+        top: 50px;
+        right: 150px;
+    }
+    .footer__botton button{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .footer__botton p{
+        font-size: 17px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .footer__main{
+        bottom: 150px;
+        right: 81px;
+    }
+    .footer__main p{
+        font-size: 50px;
+        margin-top: -40px;
+    }
+    .footer__main h2 {
+        font-size: 43px;
+    }
+    .footer__logo{
+        bottom: 150px;
+        left: 70px;
+    }
+    .footer__logo p{
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.2);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+    .footer__logo span{
+        font-size: 16px;
+        color: white;
+    }
+
+}
+@media (max-width: 780px){
+    .header__call{
+        right: 20px;
+    }
+    .header__call p{
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+    .header__call span{
+        font-size: 15px;
+    }
+    .header__logo p{
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-left: -20px;
+    }
+    .header__logo{
+        top: 20px;
+    }
+    .main{
+        top: 100px;
+    }
+    .main button{
+        width: 180px;
+        height: 40px;
+        font-size: 13px;
+        margin: 10px 0 0 0;
+    }
+    .main button:hover{
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .girl{
+        top: -50px;
+        right: -100px;
+    }
+    .girl img{
+        width: 40%;
+    }
+    .reviews__girl img{
+        width: 0;
+    }
+    .reviews h2{
+        font-size: 20px;
+        top: 20px;
+        left: 50px;
+    }
+    .reviews h2 span{
+        font-size: 40px;
+    }
+    .reviews p{
+        font-size: 11px;
+        color: white;
+        width: 240px;
+    }
+    .reviews__text{
+        bottom: 20px;
+        margin: 0 30% 0 30%;
+    }
+    .reviews__text h3{
+        font-size: 27px;
+        color: white;
+    }
+    .reviews__text span{
+        font-size: 12px;
+    }
+
+
+    .footer__botton{
+        position: absolute;
+        top: 30px;
+        right: 100px;
+    }
+    .footer__botton button{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .footer__botton p{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .footer__main{
+        bottom: 10px;
+        right: 41px;
+    }
+    .footer__main p{
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    .footer__main h2 {
+        font-size: 13px;
+    }
+    .footer__logo{
+        bottom: 100px;
+        left: 50px;
+    }
+    .footer__logo p{
+        font-size: 13px;
+
+    }
+ .footer__form form{
+        margin-top: -30px;
+        padding-left: 0;
+    }
+ .footer__form input{
+        width: 200px;
+    }
+    .footer__form button{
+        width: 180px;
+        height: 40px;
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
+    .footer__social{
+        bottom: 20px;
+        width: 150px;
+        margin: 0 40%;
+    }
+    footer a{
+        font-size: 12px;
+    }
+    .footer__social img{
+        width: 20%;
+        padding: 10px;
+    }
+}

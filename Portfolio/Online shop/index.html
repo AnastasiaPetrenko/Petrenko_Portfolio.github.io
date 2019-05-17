@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Меню -->
+
+<nav class="navbar  navbar-expand-lg navbar-light white">
+  <div class="container">
+    <a href="#" class="navbar-brand waves-effect">
+      <strong class="blue-text">SHOP</strong>
+    </a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse"
+                 data-target="#navbarContent" aria-controls="navbarContent"
+                 aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+     <div class="collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item active">
+               <a href="index.html" class="nav-link waves-effect">Home</a>
+           </li>
+           <li class="nav-item">
+               <a href="#products" class="nav-link waves-effect">Product</a>
+           </li>
+           <li class="nav-item">
+               <a href="about.html" class="nav-link waves-effect">About us</a>
+           </li>
+           <li class="nav-item">
+              <a href="blog.html" class="nav-link waves-effect">Blog</a>
+           </li>
+       </ul>
+       <ul class="navbar-nav nav-flex-icons">
+         <li class="nav-item">
+                     <a href="#" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                         <span class="badge badge-pill red mr-1">0</span>
+
+                         <i class="fa fa-shopping-cart"></i>
+                         <span class=" d-none d-sm-inline-block">Bag</span>
+                     </a>
+
+             <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                 <div class="modal-dialog modal-dialog-scrollable" role="document">
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <h5 class="modal-title" id="exampleModalScrollableTitle">Your Order</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                             </button>
+                         </div>
+                         <div class="modal-body">
+                             <h5>Your Shopping Cart is empty.</h5>
+                             <p>Choose something and <a href="#" role="button" class="btn btn-primary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">Take order</a></p>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </li>
+       </ul>
+     </div>
+   </div>
+</nav>
+
+<!-- Меню -->
+
+<!-- Carousel -->
+
+<div class="bd-example">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/woman-4008702_1280.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/blue-2564660_1280.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/backpack-1839705_1280.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-center justify-content-center">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Carousel -->
+
+<!-- Products -->
+
+
+     <main>
+         <div class="container">
+             <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5" id="products">
+                 <span class="navbar-brand">Categories:</span>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nextNav"
+                        aria-controls="#nextNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="nextNav">
+                     <ul class="navbar-nav mr-auto">
+                         <li class="nav-item">
+                             <a href="#" class="nav-link">All</a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="#" class="nav-link">Bags</a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="#" class="nav-link">Backpack</a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="#" class="nav-link">Crossbody</a>
+                         </li>
+                     </ul>
+
+                     <!--Search -->
+
+                     <form class="form-inline">
+                         <div class="md-form my-0">
+                             <input type="text" class="form-control mr-sm-2"
+                                    placeholder="Search" aria-label="Search">
+                         </div>
+                     </form>
+
+                     <!-- Search -->
+
+                 </div>
+             </nav>
+
+             <section class="text-center mb-4" >
+                 <div class=" row wow fadeIn">
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img1.jpg">
+                                 <a href="shoping.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Bags</h5>
+                                 </a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                            <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                    <h4 class="font-weight-bold blue-text">
+                                        <strong>99$</strong>
+                                    </h4>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img1.jpg">
+                                 <a href="shoping.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Bags</h5>
+                                 </a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>99$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img1.jpg">
+                                 <a href="shoping.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Bags</h5>
+                                 </a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>99$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img1.jpg">
+                                 <a href="shoping.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Bags</h5>
+                                 </a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>99$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+
+                 <div class=" row wow fadeIn">
+                         <div class="col-lg-3 col-md-6 mb-4">
+                             <div class="card">
+
+                               <div class="view overlay">
+                                   <img class="card-img-top"  src="img/img6.jpg">
+                                   <a href="shoping2.html"><div class="mask rgba-white-light"></div></a>
+                               </div>
+
+                               <div class="card-body text-center">
+                                   <a href="#" class="grey-text">
+                                   <h5>Crossbody</h5></a>
+                                   <h5>
+                                   <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                         <span class="badge badge-pill danger-color">New</span></a>
+                                   </strong>
+                                   </h5>
+                                       <h4 class="font-weight-bold blue-text">
+                                            <strong>99$</strong>
+                                       </h4>
+                               </div>
+                             </div>
+                         </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img6.jpg">
+                                 <a  href="shoping2.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Crossbody</h5></a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>99$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img6.jpg">
+                                 <a  href="shoping2.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Crossbody</h5></a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>99$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img6.jpg">
+                                 <a  href="shoping2.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Crossbody</h5></a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>99$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class=" row wow fadeIn">
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img3.jpg">
+                                 <a href="shoping3.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Backpack</h5></a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>88$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img3.jpg">
+                                 <a href="shoping3.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Backpack</h5></a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>88$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img3.jpg">
+                                 <a href="shoping3.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Backpack</h5></a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>88$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 mb-4">
+                         <div class="card">
+
+                             <div class="view overlay">
+                                 <img class="card-img-top" src="img/img3.jpg">
+                                 <a href="shoping3.html"><div class="mask rgba-white-light"></div></a>
+                             </div>
+
+                             <div class="card-body text-center">
+                                 <a href="#" class="grey-text">
+                                     <h5>Backpack</h5></a>
+                                 <h5>
+                                     <strong>
+                                         <a href="#" class="black-text">Lorem ipsum dolor sit amet
+                                             <span class="badge badge-pill danger-color">New</span></a>
+                                     </strong>
+                                 </h5>
+                                 <h4 class="font-weight-bold blue-text">
+                                     <strong>88$</strong>
+                                 </h4>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </section>
+             <!-- Products -->
+
+             <!--Pages -->
+               <nav class="d-flex justify-content-center wow fadeIn">
+                   <ul class="pagination pg-blue">
+                       <li class="page-item disabled">
+                           <a href="" class="page-link" aria-label="Previous">
+                               <span aria-hidden="true">&laquo;</span>
+                           </a>
+                       </li>
+                       <li class="page-item active">
+                           <a href="" class="page-link" aria-label="Previous">
+                               <span aria-hidden="true">1</span>
+                           </a>
+                       </li>
+
+                       <li class="page-item">
+                           <a href="" class="page-link" aria-label="Previous">
+                               <span aria-hidden="true">2</span>
+                           </a>
+                       </li>
+
+                       <li class="page-item">
+                           <a href="" class="page-link" aria-label="Previous">
+                               <span aria-hidden="true">3</span>
+                           </a>
+                       </li>
+
+                       <li class="page-item">
+                           <a href="" class="page-link" aria-label="Previous">
+                               <span aria-hidden="true">4</span>
+                           </a>
+                       </li>
+
+                       <li class="page-item">
+                           <a href="" class="page-link" aria-label="Previous">
+                               <span aria-hidden="true">&raquo;</span>
+                           </a>
+                       </li>
+                   </ul>
+               </nav>
+
+             <footer class="text-center mt-5" >
+                 <hr>
+                 <a href="https://www.facebook.com" class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                 <a href="https://twitter.com/" class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+                 <a href="https://plus.google.com" class="gplus-ic mr-3" role="button"><i class="fab fa-lg fa-google-plus-g"></i></a>
+                 <a href="https://www.linkedin.com/" class="li-ic mr-3" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                 <a  href="https://www.instagram.com" class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                 <a href="https://nl.pinterest.com/" class="pin-ic mr-3" role="button"><i class="fab fa-lg fa-pinterest"></i></a>
+                 <h6>© 2006 – 2019</h6>
+             </footer>
+
+         </div>
+     </main>
+             <!--Pages -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+
+</html>

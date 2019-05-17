@@ -1,0 +1,483 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Myriad Pro', sans-serif; }
+
+@font-face {
+  font-family: ChalkboardSE;
+  src: url("fonts/ChalkboardSE.woff") format("woff"); }
+.landing {
+  background-image: url(img/bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px; }
+  .landing .logo {
+    padding-top: 28px;
+    padding-left: 41px;
+    float: left; }
+  .landing nav {
+    padding-top: 32px;
+    padding-left: 46px;
+    float: left; }
+    .landing nav li {
+      list-style: none;
+      float: left;
+      padding-right: 30px; }
+      .landing nav li a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding-bottom: 35px; }
+      .landing nav li a:hover {
+        border-bottom: 2px solid #fe9500; }
+  .landing .main__tell {
+    padding-top: 14px;
+    padding-right: 30px;
+    float: right; }
+    .landing .main__tell p {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 4px;
+      font-weight: bold;
+      letter-spacing: 1px; }
+    .landing .main__tell a {
+      font-size: 12px;
+      padding: 8px 30px;
+      color: white;
+      display: inline-block;
+      text-decoration: none;
+      background-color: #fe9500;
+      box-sizing: border-box;
+      border-radius: 35px;
+      border: 2px solid #fe9500; }
+    .landing .main__tell a:hover {
+      border: 2px solid #fe9500;
+      background-color: transparent; }
+  .landing .line {
+    border-top: 1px solid #63bd65;
+    position: absolute;
+    top: 86px;
+    left: 55px;
+    width: 91%; }
+  .landing .social {
+    position: absolute;
+    left: 5px;
+    top: 214px; }
+    .landing .social a {
+      text-decoration: none; }
+    .landing .social img {
+      margin-bottom: 17px; }
+    .landing .social img:hover {
+      opacity: 0.5; }
+  .landing .banner {
+    position: absolute;
+    top: 86px;
+    left: 165px;
+    color: white; }
+    .landing .banner h2 {
+      font-size: 60px;
+      line-height: 1.148;
+      letter-spacing: 2px;
+      text-align: left;
+      font-weight: bold;
+      font-family: ChalkboardSE, sans-serif; }
+    .landing .banner h4 {
+      font-size: 20px;
+      letter-spacing: 3.2px;
+      padding-top: 5px;
+      font-family: 'Montserrat', sans-serif; }
+    .landing .banner p {
+      padding-top: 17px;
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif; }
+    .landing .banner a {
+      color: white;
+      display: inline-block;
+      text-decoration: none;
+      background-color: #fe9500;
+      padding: 10px 36px;
+      box-sizing: border-box;
+      border-radius: 35px;
+      margin-top: 5px;
+      border: 2px solid #fe9500; }
+    .landing .banner a:hover {
+      border: 2px solid #fe9500;
+      background-color: transparent; }
+    .landing .banner .mouse {
+      margin-top: 30px; }
+
+.form {
+  background-image: url(img/img1.png);
+  background-size: cover; }
+  .form h4 {
+    padding-top: 100px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #282828;
+    line-height: 1.167;
+    font-family: ChalkboardSE, sans-serif; }
+    .form h4 span {
+      color: #44c34f;
+      font-family: ChalkboardSE, sans-serif; }
+  .form p {
+    color: #b0b0b0;
+    font-size: 16px;
+    letter-spacing: 1px; }
+    .form p span {
+      color: #fe9500;
+      font-weight: bold;
+      font-size: 30px; }
+  .form form input {
+    border-radius: 35px;
+    width: 300px;
+    height: 40px;
+    border: solid 1px lightgray;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px; }
+  .form .time {
+    position: absolute; }
+    .form .time h2 {
+      padding-top: 20px;
+      font-size: 19px;
+      color: #282828;
+      line-height: 1.136;
+      font-family: ChalkboardSE, sans-serif; }
+    .form .time #clockdiv {
+      color: #333333;
+      display: inline-block;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold; }
+    .form .time #clockdiv > div {
+      display: inline-block; }
+    .form .time #clockdiv div > span {
+      margin-right: 20px;
+      display: inline-block; }
+    .form .time .smalltext {
+      padding-top: 5px;
+      margin-left: -18px;
+      font-size: 14px;
+      color: black; }
+    .form .time a {
+      color: white;
+      display: inline-block;
+      text-decoration: none;
+      background-color: #fe9500;
+      width: 300px;
+      height: 50px;
+      padding-top: 12px;
+      box-sizing: border-box;
+      border-radius: 35px;
+      margin-top: 5px;
+      border: 2px solid #fe9500; }
+    .form .time a:hover {
+      border: 2px solid #fe9500;
+      background-color: transparent;
+      color: #fe9500; }
+    .form .time h3 {
+      font-size: 15px;
+      margin-top: 10px; }
+      .form .time h3 span {
+        color: #44c34f; }
+
+.why-we {
+  margin-top: 100px; }
+  .why-we h2 {
+    font-size: 52px;
+    letter-spacing: 4px;
+    color: #282828;
+    font-weight: bold;
+    line-height: 1.228;
+    font-family: ChalkboardSE, sans-serif; }
+  .why-we h3 {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #282828;
+    line-height: 1.199;
+    font-family: 'Montserrat', sans-serif; }
+  .why-we .why-we__greed {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    margin-top: 50px; }
+    .why-we .why-we__greed p {
+      font-size: 18px;
+      color: #282828;
+      line-height: 1.591;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif; }
+
+.our-farm {
+  padding-top: 128px;
+  background-image: url(img/bg4.png);
+  background-size: cover; }
+  .our-farm h2 {
+    font-size: 58px;
+    color: #282828;
+    line-height: 1.228;
+    font-family: ChalkboardSE, sans-serif; }
+  .our-farm h3 {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #282828;
+    line-height: 1.199;
+    font-family: 'Montserrat', sans-serif; }
+  .our-farm img {
+    margin-top: 30px; }
+  .our-farm a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fe9500;
+    width: 250px;
+    height: 50px;
+    padding-top: 12px;
+    box-sizing: border-box;
+    border-radius: 35px;
+    margin-top: 40px;
+    border: 2px solid #fe9500;
+    margin-bottom: 92px; }
+  .our-farm a:hover {
+    border: 2px solid #fe9500;
+    background-color: transparent;
+    color: #fe9500; }
+
+.video {
+  margin-top: -82px;
+  background-image: url(img/bg3.png);
+  background-repeat: no-repeat; }
+  .video h2 {
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 1.228;
+    font-family: ChalkboardSE, sans-serif;
+    padding-top: 184px; }
+  .video h3 {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    line-height: 1.199;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 38px; }
+  .video iframe {
+    bottom: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); }
+
+.catalog {
+  margin-top: 82px; }
+  .catalog h2 {
+    font-size: 58px;
+    color: #282828;
+    line-height: 1.228;
+    font-family: ChalkboardSE, sans-serif; }
+  .catalog h3 {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #282828;
+    line-height: 1.199;
+    font-family: 'Montserrat', sans-serif; }
+    .catalog h3 span {
+      font-weight: bold;
+      color: #fe9500; }
+  .catalog h4 {
+    padding-top: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #282828;
+    line-height: 1.199;
+    font-family: 'Montserrat', sans-serif; }
+    .catalog h4 span {
+      font-weight: bold;
+      color: #44c34f; }
+  .catalog ul {
+    display: flex;
+    margin-top: 100px; }
+    .catalog ul li {
+      display: inline-block;
+      padding-top: 8px;
+      box-sizing: border-box;
+      border-radius: 35px;
+      border: solid 1px #767676;
+      list-style: none;
+      width: 250px;
+      height: 40px;
+      margin-right: 20px; }
+      .catalog ul li a {
+        font-size: 15px;
+        color: #767676;
+        float: left;
+        padding-left: 15px; }
+      .catalog ul li img {
+        float: right;
+        padding-right: 10px;
+        padding-top: 4px; }
+    .catalog ul li:hover {
+      border: solid 1px #fe9500; }
+      .catalog ul li:hover a:hover {
+        color: #fe9500;
+        text-decoration: none; }
+  .catalog .catalog__card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 64px; }
+    .catalog .catalog__card .greed-1 {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      margin-top: 30px;
+      padding-bottom: 20px;
+      margin-bottom: 50px; }
+      .catalog .catalog__card .greed-1 h4 {
+        font-family: ChalkboardSE, sans-serif;
+        font-size: 18px;
+        margin-top: 10px; }
+      .catalog .catalog__card .greed-1 p {
+        font-size: 13px;
+        color: #767676;
+        margin-top: 10px; }
+      .catalog .catalog__card .greed-1 h5 {
+        font-size: 14px;
+        font-family: "ChalkboardSE", sans-serif;
+        color: rgba(40, 40, 40, 0.502);
+        margin-top: -10px; }
+        .catalog .catalog__card .greed-1 h5 span {
+          color: #fe9500;
+          font-size: 20px;
+          font-weight: bold; }
+      .catalog .catalog__card .greed-1 button {
+        background-color: #fe9500;
+        color: white;
+        width: 180px;
+        height: 40px;
+        border: none;
+        border-radius: 35px;
+        margin-bottom: 7px; }
+      .catalog .catalog__card .greed-1 button:hover {
+        border: #fe9500 solid 2px;
+        color: #fe9500;
+        background-color: transparent; }
+      .catalog .catalog__card .greed-1 a {
+        font-size: 14px;
+        color: #fe9500;
+        padding-top: 10px; }
+
+.reviews {
+  background-image: url(img/bg4.png);
+  background-size: cover;
+  padding-top: 178px; }
+  .reviews h2 {
+    font-size: 58px;
+    color: #282828;
+    line-height: 1.228;
+    font-family: ChalkboardSE, sans-serif; }
+  .reviews p {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #282828;
+    line-height: 1.199;
+    font-family: 'Montserrat', sans-serif; }
+
+.review__card {
+  float: left;
+  background-image: url(img/bg5.png);
+  width: 47%;
+  padding: 40px;
+  margin-bottom: 20px; }
+  .review__card h2 {
+    font-size: 20px;
+    color: #fe9500;
+    font-family: "ChalkboardSE", sans-serif; }
+  .review__card span {
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif; }
+  .review__card p {
+    font-size: 15px;
+    color: #767676;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 6px; }
+
+.girl {
+  max-width: 210px;
+  margin: 0 auto; }
+  .girl img {
+    padding-right: 10px; }
+  .girl button {
+    background-color: #fe9500;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    margin-bottom: 55px;
+    text-decoration: none; }
+  .girl button:hover {
+    border: #fe9500 solid 2px;
+    color: #fe9500;
+    background-color: transparent; }
+
+.delivery {
+  background-image: url(img/bg6.png);
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  margin-top: -90px; }
+  .delivery h2 {
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 1.228;
+    font-family: ChalkboardSE, sans-serif; }
+  .delivery p {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    line-height: 1.199;
+    font-family: 'Montserrat', sans-serif; }
+  .delivery .delivery__propose {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px; }
+    .delivery .delivery__propose h3 {
+      font-size: 20px;
+      color: white;
+      padding-top: 20px;
+      font-weight: bold; }
+    .delivery .delivery__propose p {
+      color: white;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 130px; }
+
+footer {
+  background-image: url(img/bg7.png);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 140px;
+  margin-top: -88px; }
+  footer p {
+    font-size: 15px;
+    color: #282828;
+    font-family: 'Montserrat', sans-serif; }
+  footer img {
+    margin-top: -15px; }
+  footer .tel p {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; }
+  footer .tel button {
+    background-color: #fe9500;
+    color: white;
+    width: 190px;
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+    margin-top: -17px;
+    text-decoration: none;
+    margin-bottom: 50px; }
+  footer .tel button:hover {
+    border: #fe9500 solid 2px;
+    color: #fe9500;
+    background-color: transparent; }
+
+/*# sourceMappingURL=style1.css.map */
